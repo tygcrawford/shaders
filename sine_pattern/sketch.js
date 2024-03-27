@@ -13,5 +13,7 @@ function setup() {
 }
 
 function draw() {
+  mainShader.setUniform("millis", millis());
+
   rect(0, 0, width, height);
 }
