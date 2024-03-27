@@ -24,7 +24,7 @@ void main() {
   vec2 ocPos = cPos;
 
   // repeat the pattern and adjust the image to center again
-  // cPos = fract(cPos * 2.) - 0.5;
+  cPos = fract(cPos * 2.) - 0.5;
 
   float d = length(cPos);
   
